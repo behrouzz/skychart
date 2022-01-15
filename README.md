@@ -23,7 +23,7 @@ plt.show()
 
 ## Example 2: 
 
-Here we make the same chart, using the low-level function *draw_chart* :
+Here we make the same chart, using the low-level function *draw_chart*. We want only two constellations be drawn (*Ursa Major* and *Cassiopeia*).
 
 ```python
 import skychart as sch
