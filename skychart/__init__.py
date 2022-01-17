@@ -1,4 +1,4 @@
-from .core import load_constellations, create_edges, load_hipparcos, visible_hipparcos
-from .core import draw_chart, draw, const2star, star2const
+from .load_data import load_constellations, create_edges, load_hipparcos, const2star, star2const
+from .plotting import visible_hipparcos, draw_chart, draw
 
-__version__ = "0.0.2"
+__version__ = "0.0.3"
